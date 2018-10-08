@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index1/index1",
+    "pages/index2/index2",
+    "pages/index3/index3",
+    "pages/index3_credit/index3_credit",
+    "pages/menu/menu",
+    "pages/discount/discount",
+    "pages/tab/tab",
+    "pages/product/product",
+    "pages/input/input",
+    "pages/search/search",
+    "pages/layout/layout",
+    "pages/title/title",
+    "pages/user/user",
+    "pages/user_order/user_order",
+    "pages/uploader/uploader",
+    "pages/searchbar/searchbar",
+    "pages/manage_address/manage_address",
+    "pages/newAddress/newAddress",
+    "pages/calendar/calendar",
+    "pages/commodity_attr/commodity_attr",
+    "pages/horizontal-scroll_tab/horizontal-scroll_tab",
+    "pages/dialog/dialog"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#262626",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "#fff"
+  }
+}

@@ -1,0 +1,23 @@
+/**index.wxss**/
+@import "../../wxParse/wxParse.wxss"; 
+view{
+	color:#666;
+}
+.menu{
+	width:100%;
+	flex-wrap:wrap;
+	margin-top:10rpx;
+}
+.menu_item{
+	width:25%;
+	text-align:center;
+	height:142rpx;
+}
+.menu_item image{
+	width:68rpx;
+	height:60rpx;
+}
+.menu_item view{
+	text-align:center;
+	width:100%;
+}

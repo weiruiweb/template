@@ -1,0 +1,123 @@
+<!--index.wxml-->
+<view class="w710">
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/menu/menu">
+    <view class="list_left">
+        首页菜单
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/tab/tab">
+    <view class="list_left">
+        选项卡
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/product/product">
+    <view class="list_left">
+        产品左图  右文字
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/index1/index1">
+    <view class="list_left">
+        form表单
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/layout/layout">
+    <view class="list_left">
+        布局
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/title/title">
+    <view class="list_left">
+        标题
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/user/user">
+    <view class="list_left">
+        我的中心
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/user_order/user_order">
+    <view class="list_left">
+        我的订单
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/index3_credit/index3_credit">
+    <view class="list_left">
+        我的积分
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/calendar/calendar">
+    <view class="list_left">
+        自定义日历
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/manage_address/manage_address">
+    <view class="list_left">
+        地址管理
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/discount/discount">
+    <view class="list_left">
+        优惠券
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/commodity_attr/commodity_attr">
+    <view class="list_left">
+        商品属性联动选择
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/dialog/dialog">
+    <view class="list_left">
+        自定义dialog
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/cart/cart">
+    <view class="list_left">
+        添加购物车
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+</view>

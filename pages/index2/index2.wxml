@@ -1,0 +1,29 @@
+<!--index1.wxml-->
+<view class="navbar">
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1.png"></image>
+        </view>
+        <view class="text">首页</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index1/index1">
+        <view class="nav_img">
+           <image src="/images/navbar2-a.png"></image>
+        </view>
+        <view class="text this-text">公司业务</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index2/index2">
+        <view class="nav_img">
+           <image src="/images/navbar3.png"></image>
+        </view>
+        <view class="text">公司动态</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index3/index3">
+        <view class="nav_img">
+            <image src="/images/navbar4.png"></image>
+        </view>
+        <view class="text">联系我们</view>
+    </view>
+</view>
+
+

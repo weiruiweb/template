@@ -1,0 +1,48 @@
+/**index.wxss**/
+@import "../../wxParse/wxParse.wxss"; 
+view{
+	color:#666;
+}
+.mask{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:999;
+	overflow:hidden;
+
+}
+.mask_cont{
+	width:100%;
+	position:absolute;
+	top:50%;
+	z-index:999;
+	overflow:hidden;
+}
+.tishi_cont{
+	width:465rpx;height:450rpx;background:#fff;margin:0 auto;border-radius:10rpx;z-index:999;padding:20rpx 0;
+	box-shadow:0 0 10rpx #666;
+	
+}
+.tishi_in{
+	height:78%;
+	padding:0  30rpx;
+	background:#fff
+}
+.tishi_tltl{
+	font-size:30rpx;
+	color:#333;
+	text-align:center;
+	line-height:80rpx;
+}
+.tishi_txt{
+	height:75rpx;
+	line-height:75rpx;
+	font-size:28rpx;
+	border-bottom:solid 1px #ed7101;
+}
+.tishi_txt input{
+	width:80%;
+}

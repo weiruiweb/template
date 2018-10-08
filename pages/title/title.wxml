@@ -1,0 +1,11 @@
+<!--index2.wxml-->
+<view class="banner">
+    <image src="/images/banner.png"></image>
+</view>
+<view class="big_title flexRowBetween">
+    <view class="tlt_left"></view>
+    <view class="tlt_center font32 color3">主要产品</view>
+    <view class="tlt_left"></view>
+</view>
+
+

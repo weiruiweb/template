@@ -1,0 +1,31 @@
+<scroll-view scroll-x="true" class="ip_tab_comtainer">
+  <view class="ip_tab_comtainer_padd"></view>
+    <view class="ip_tab_item_n">
+      	全部
+    </view>
+    <view class="ip_tab_item_n">
+      	全部1
+    </view>
+    <view class="ip_tab_item_n">
+      	全部2
+    </view>
+    <view class="ip_tab_item_n">
+      	全部3
+    </view>
+    <view class="ip_tab_item_n">
+      	全部4
+    </view>
+    <view class="ip_tab_item_n">
+      	全部5
+    </view>
+    <view class="ip_tab_item_n">
+      	全部6
+    </view>
+    <view class="ip_tab_item_n">
+      	全部7
+    </view>
+    <view class="ip_tab_item_n">
+      	全部8
+    </view>
+  <view class="ip_tab_comtainer_padd"></view>
+</scroll-view>

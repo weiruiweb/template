@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="banner">
+    <image src="/images/banner.png"></image>
+</view>
+<view class="menu flexRowBetween font30 color6">
+  <view class="menu_item">
+    <view><image src="/images/index_icon1.png"></image></view>
+    <view>公司简介</view>
+  </view>
+  <view class="menu_item">
+    <view><image src="/images/index_icon2.png"></image></view>
+    <view>公司文化</view>
+  </view>
+  <view class="menu_item">
+    <view><image src="/images/index_icon3.png"></image></view>
+    <view>公司团建</view>
+  </view>
+  <view class="menu_item">
+    <view><image src="/images/index_icon4.png"></image></view>
+    <view>公司历史</view>
+  </view>
+  <view class="menu_item">
+    <view><image src="/images/index_icon5.png"></image></view>
+    <view>公司动态</view>
+  </view>
+  <view class="menu_item">
+    <view><image src="/images/index_icon6.png"></image></view>
+    <view>产品介绍</view>
+  </view>
+  <view class="menu_item">
+    <view><image src="/images/index_icon7.png"></image></view>
+    <view>公司案例</view>
+  </view>
+  <view class="menu_item">
+    <view><image src="/images/index_icon8.png"></image></view>
+    <view>联系我们</view>
+  </view>
+</view>

@@ -1,0 +1,27 @@
+<!--User.wxml-->
+<view class="w710">
+	<view class="input_list font28 flex">
+		<view class="input_before">您的姓名:</view>
+		<input placeholder="请输入姓名"></input>
+	</view>
+	<view class="input_list font28 flex">
+		<view class="input_before">联系电话:</view>
+		<input placeholder="请输入联系电话"></input>
+	</view>
+</view>
+
+
+<view class="flex">
+	<view class="w20"></view>
+	<view class="main">
+		<view class="input_list1 font28 flex">
+			<view class="input_before1">您的姓名:</view>
+			<input placeholder="请输入姓名"></input>
+		</view>
+		<view class="input_list1 font28 flex">
+			<view class="input_before1">联系电话:</view>
+			<input placeholder="请输入联系电话"></input>
+		</view>
+	</view>
+	<view class="w20"></view>
+</view>

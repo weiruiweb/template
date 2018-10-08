@@ -1,0 +1,49 @@
+<!--index3.wxml-->
+<view class="tab font30 flexRowBetween color6">
+    <view class="tab_item " data-id="0" bindtap="tab">
+        <text class="{{currentId == 0?'tab_this':''}}">全部</text>
+    </view>
+    <view class="tab_item " data-id="1" bindtap="tab">
+        <text class="{{currentId == 1?'tab_this':''}}">已领取</text>
+    </view>
+    <view class="tab_item" data-id="2" bindtap="tab">
+        <text class="{{currentId == 2?'tab_this':''}}">已使用</text>
+    </view>
+    <view class="tab_item" data-id="3" bindtap="tab">
+        <text class="{{currentId == 3?'tab_this':''}}">已失效</text>
+    </view>
+</view>
+<view class="product flexRowBetween w710">
+    <view class="product_box flexRowBetween">
+        <view class="product_left">
+            <image src="/images/index1.png"></image>
+        </view>
+        <view class="product_right">
+            <view class="product_detail">
+                <view class="font32 color3 product_top">空间+导示</view>
+                <view class="font24 color9">2018-09-09</view>
+                <view class="font30 color6 product_price flex">¥189</view>
+            </view>
+        </view>
+        <view class="order_handle">
+            <view class="submit_info font30">去评价</view>
+        </view>
+    </view>
+</view>
+<view class="product flexRowBetween w710">
+    <view class="product_box flexRowBetween">
+        <view class="product_left">
+            <image src="/images/index1.png"></image>
+        </view>
+        <view class="product_right">
+            <view class="product_detail">
+                <view class="font32 color3 product_top">空间+导示</view>
+                <view class="font24 color9">2018-09-09</view>
+                <view class="font30 color6 product_price flex">¥189</view>
+            </view>
+        </view>
+        <view class="order_handle">
+            <view class="submit_info font30">待使用</view>
+        </view>
+    </view>
+</view>

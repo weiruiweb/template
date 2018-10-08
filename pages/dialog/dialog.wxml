@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="mask" wx:if="{{is_show}}" catchtouchmove="true" bindtap="mask">
+</view>
+<view bindtap="appoint">点击出现</view>
+<view class="tishi" wx:if="{{is_show}}"  catchtouchmove="true">
+  <view class="mask_cont" >
+    <view class="tishi_cont" style="align-items:center;display:flex;">
+        <image src="/images/qcored.png" style="margin:0 auto;"></image>
+    </view>
+  </view>
+</view>

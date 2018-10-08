@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="banner">
+    <image src="/images/banner.png"></image>
+</view>
+<view class="w710 bg flex" style="height: 88rpx;">
+  <view class="search flex">
+    <view class="search_left flexCenter font30 color1">
+      <image src="/images/index_icon1.png"></image>
+      西安
+    </view>
+    <view class="search_right flex font28 color6">
+      <view class="search_btn flex">
+       <image src="/images/search.png"></image>
+      </view>
+      <input type="" name="" placeholder="请输入关键字搜索"></input>
+    </view>
+  </view>
+</view>

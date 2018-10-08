@@ -1,0 +1,61 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+.great{
+	width:100%;
+	height:318rpx;
+	border-top:solid 1px #e0e0e0;
+	border-bottom:solid 1px #e0e0e0;
+	margin-top: 44rpx;
+}
+.great_left{
+	width:50%;
+	height:100%;
+	border-right:solid 1px #e0e0e0;
+}
+.great_right{
+	width:50%;
+	height:100%;
+}
+.left_cont{
+	width:70%;
+	height:250;
+	margin:0 auto;
+}
+.great_left image{
+	width:100%;
+	height:146rpx;
+	border-radius: 10rpx;
+	margin:10rpx 0;
+}
+.great_top{
+	width:100%;
+	height: 50%;
+	text-align: center;
+}
+.great_bottom{
+	border-top:solid 1px #e0e0e0;
+}
+.great_tRight image{
+	width:134rpx;
+	height: 86rpx;
+}
+.great_tLeft{
+	width:50%;
+	text-align: center;
+}
+.great_tRight{
+	width:50%;
+	text-align: center;
+}
+
+.recommend{
+	width:100%;
+	height: 126rpx;
+}
+.recommend_left{
+	width:48.5%;
+	height: 100%;
+	background: #fff3f2;
+	border-radius: 10rpx;
+}

@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="discount_card flexRowBetween">
+  <view class="w20"></view>
+  <view class="main flexRowBetween">
+      <view class="discont_box">
+        <image src="/images/discount_bg.png"></image>
+        <view class="discont_cont flex">
+          <view class="discont_left">
+            10
+          </view>
+          <view class="discont_right">
+            <view class="font28 color1">满88元使用</view>
+            <view class="font24 color get_discount">立即领取</view>
+          </view>
+        </view>
+      </view>
+      <view class="discont_box">
+        <image src="/images/discount_bg.png"></image>
+        <view class="discont_cont flex">
+          <view class="discont_left">
+            10
+          </view>
+          <view class="discont_right">
+            <view class="font28 color1">满88元使用</view>
+            <view class="font24 color get_discount">立即领取</view>
+          </view>
+        </view>
+      </view>
+  </view>
+  <view class="w20"></view>
+</view>

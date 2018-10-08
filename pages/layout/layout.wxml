@@ -1,0 +1,39 @@
+<!--index2.wxml-->
+<view class="great flex">
+    <view class="great_left flex">
+      <view class="left_cont">
+        <view class="color">火锅店</view>
+        <image src="/images/index1.png"></image>
+        <view class="font28">送<text class="color">¥100</text>优惠券</view>
+      </view>
+    </view>
+    <view class="great_right">
+      <view class="great_top flex">
+          <view class="great_tLeft avoidOverflow">
+              <view class="font30" style="color:#ff9b0e;">运动健身</view>
+              <view class="font26 color6" style="font-weight: 700">特惠不打烊</view>
+          </view>
+          <view class="great_tRight">
+              <image src="/images/hot1.png"></image>
+          </view>
+      </view>
+      <view class="great_top great_bottom flex">
+          <view class="great_tLeft avoidOverflow">
+              <view class="font30" style="color:#ff9b0e;">运动健身</view>
+              <view class="font26 color6" style="font-weight: 700">特惠不打烊</view>
+          </view>
+          <view class="great_tRight">
+              <image src="/images/hot2.png"></image>
+          </view>
+      </view>
+    </view>
+</view>
+<view>左右布局</view>
+<view class="w710">
+  <view class="recommend flexRowBetween">
+      <view class="recommend_left"></view>
+      <view class="recommend_left"></view>
+  </view>
+</view>
+
+
