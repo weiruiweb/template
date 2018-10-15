@@ -16,6 +16,14 @@
             <image src="/images/navbar3.jpg"></image>
         </view>
   </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/picker/picker">
+        <view class="list_left">
+            picker
+        </view>
+        <view class="list_right">
+            <image src="/images/navbar3.jpg"></image>
+        </view>
+  </view>
   <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/searchbar/searchbar">
     <view class="list_left">
         seachBar

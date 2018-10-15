@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="w710">
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/user/user">
+    <view class="list_left">
+        我的中心
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/index3_credit/index3_credit">
+    <view class="list_left">
+        我的积分
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/comment/comment">
+    <view class="list_left">
+        我的评论
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+</view>

@@ -16,3 +16,27 @@
 	text-align:center;
 	font-weight:700;
 }
+
+/************************22222**************************/
+.mall_tlt_txt{
+	color:#333;
+	width:100%;
+	height:100%;
+	text-align:center;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.mall_tlt{
+	position:relative;
+	text-align:center;
+	width:180rpx;
+	overflow:hidden;
+	margin:0 auto;
+	height:50rpx;
+	line-height:50rpx;
+}
+.mall_tlt image{
+	width:180rpx;
+	height:50rpx;
+}

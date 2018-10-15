@@ -1,0 +1,57 @@
+<!--index1.wxml-->
+<view class="consume_total flex">
+    <view class="consume_box flexRowBetween w710">
+        <input placeholder="询问服务员之后输入消费金额" class="font30"></input>
+        <view class="consume_qecored">
+           <image src="/images/order_qcored.png"> </image>
+           <view class="font24 color6">付款码</view>
+        </view>
+    </view>
+</view>
+<view class="w710 discount_list flex bg1">
+    <view class="discount_left font30">
+        优惠券
+    </view>
+    <view class="discount_right">
+        <image src="/images/order_up.png" style="width:28rpx;height:18rpx;"></image>
+    </view>
+</view>
+<view class="w710 discount_list flex bg1" data-id="0" bindtap="choose">
+    <view class="discount_left font28">
+        优惠券:<text class="color">50元</text> 满500减100
+    </view>
+    <view class="discount_right">
+        <image src="{{currentId == 0?'/images/select_a.png':'/images/select.png'}}"></image>
+    </view>
+</view>
+<view class="w710 discount_list bg1 flex" data-id="1"  bindtap="choose">
+    <view class="discount_left font28">
+        优惠券:<text class="color">100元</text> 满500减100
+    </view>
+    <view class="discount_right">
+        <image src="{{currentId == 1?'/images/select_a.png':'/images/select.png'}}"></image>
+    </view>
+</view>
+<view class="w710 bg1 discount_list flex" data-id="2"  bindtap="choose">
+    <view class="discount_left font28">
+        积分兑换:积分满500兑换20元
+    </view>
+    <view class="discount_right">
+        <image src="{{currentId == 2?'/images/select_a.png':'/images/select.png'}}"></image>
+    </view>
+</view>
+<view class="w710 bg1 discount_list flex">
+    <view class="discount_left font28">
+        实付金额
+    </view>
+    <view class="discount_right color">
+        ¥65
+    </view>
+</view>
+<view class="w710">
+    <button class="submit_info">确认订单</button>
+    <view class="font24 color6" style="margin-top:20rpx;">买单仅限于到店支付，请确认金额后提交</view>
+</view>
+
+
+

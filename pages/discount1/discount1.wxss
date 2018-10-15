@@ -1,0 +1,54 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"
+page{
+	width:100%;
+	min-height:100%;
+	background:#f2f2f2;
+}
+.consume_total{
+	width:100%;
+	height:154rpx;
+	background:#f2f2f2;
+}
+.consume_box{
+	height:96rpx;
+}
+.consume_box input{
+	width:83%;
+	height:96rpx;
+	border:solid 1px #e0e0e0;
+	border-radius:10rpx;
+	background:#fff;
+	padding-left:2%;
+}
+.consume_qecored{
+	width:12.5%;
+	height:96rpx;
+	text-align:center;
+}
+.consume_qecored image{
+	width:56rpx;
+	height:56rpx;
+}
+.discount_list{
+	height:88rpx;
+	border-bottom:solid 1px #e0e0e0;
+}
+.discount_left{
+	width:70%;
+}
+.discount_right{
+	width:30%;
+	text-align:right;
+}
+.discount_right image{
+	width:30rpx;
+	height:30rpx;
+}
+.discount_left text{
+	margin-left:16rpx;
+}
+.submit_info{
+	margin-top:50rpx;
+}

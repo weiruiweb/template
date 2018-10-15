@@ -1,5 +1,13 @@
 <!--index.wxml-->
 <view class="w710">
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/carousel/carousel">
+    <view class="list_left">
+        轮播
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
   <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/menu/menu">
     <view class="list_left">
         首页菜单
@@ -11,6 +19,14 @@
   <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/tab/tab">
     <view class="list_left">
         选项卡
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/index_product/index_product">
+    <view class="list_left">
+        首页产品列表
     </view>
     <view class="list_right">
         <image src="/images/navbar3.jpg"></image>
@@ -48,33 +64,25 @@
         <image src="/images/navbar3.jpg"></image>
     </view>
   </view>
-  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/user/user">
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/users/users">
     <view class="list_left">
-        我的中心
+        我的
     </view>
     <view class="list_right">
         <image src="/images/navbar3.jpg"></image>
     </view>
   </view>
-  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/user_order/user_order">
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/order/order">
     <view class="list_left">
-        我的订单
+        订单
     </view>
     <view class="list_right">
         <image src="/images/navbar3.jpg"></image>
     </view>
   </view>
-  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/index3_credit/index3_credit">
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/defined/defined">
     <view class="list_left">
-        我的积分
-    </view>
-    <view class="list_right">
-        <image src="/images/navbar3.jpg"></image>
-    </view>
-  </view>
-  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/calendar/calendar">
-    <view class="list_left">
-        自定义日历
+        自定义
     </view>
     <view class="list_right">
         <image src="/images/navbar3.jpg"></image>
@@ -104,17 +112,49 @@
         <image src="/images/navbar3.jpg"></image>
     </view>
   </view>
-  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/dialog/dialog">
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/go_buy/go_buy">
     <view class="list_left">
-        自定义dialog
+        底部购买按钮
     </view>
     <view class="list_right">
         <image src="/images/navbar3.jpg"></image>
     </view>
   </view>
-  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/cart/cart">
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/comment/comment">
     <view class="list_left">
-        添加购物车
+        评论
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/detail/detail">
+    <view class="list_left">
+        商品
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/group/group">
+    <view class="list_left">
+        团购
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/animate/animate">
+    <view class="list_left">
+        动画
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/scroll-x/scroll-x">
+    <view class="list_left">
+      横向滚动 scroll-x
     </view>
     <view class="list_right">
         <image src="/images/navbar3.jpg"></image>

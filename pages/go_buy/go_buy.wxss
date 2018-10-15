@@ -1,0 +1,34 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+.buy_bottom{
+	height:100rpx;
+	box-shadow: 0 0 10rpx #ed9f9d;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+}
+.buy_box{
+	width:100%;
+	height:68rpx;
+}
+.buy_box image{
+	width:32rpx;
+	height: 32rpx;
+}
+.collect{
+	width:13%;
+	text-align:center;
+}
+.go_buy{
+	width:74%;
+}
+.buy_click{
+	width:228rpx;
+	height:64rpx;
+	border:solid 1px #e83632;
+	border-radius: 30rpx;
+	text-align: center;
+	line-height: 64rpx;
+	float: right;
+}

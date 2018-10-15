@@ -1,0 +1,14 @@
+<!--index2.wxml-->
+<view class="w710 index_product flexRowBetween">
+  <view class="recommend_left">
+      <image src="/images/index1.jpg"></image>
+      <view class="product_name font30">名称名称名称名称</view>
+      <view class="product_pro font24">名称名称名称名称</view>
+  </view>
+  <view class="recommend_left">
+       <image src="/images/index1.jpg"></image>
+      <view class="product_name font30">名称名称名称名称</view>
+      <view class="product_pro font24">名称名称名称名称</view>
+  </view>
+</view>
+

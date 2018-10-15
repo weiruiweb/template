@@ -1,0 +1,175 @@
+<!--service wxml-->
+<view class="tab_click flexRowBetween font32">
+	<view class="tab_sort" data-id="0" bindtap="tabCont">
+		<text class="{{tapCurrent == 0?'this_tab':''}}">我是团长</text>
+	</view>
+	<view class="tab_sort"  data-id="1"  bindtap="tabCont">
+		<text class="{{tapCurrent == 1?'this_tab':''}}">我要参团</text>
+	</view>
+</view>
+<view class="tab_cont">
+	<view class="tab_item {{tapCurrent == 0?'tab_this':''}}">
+		<view class="tab_list" bindtap="detail">	
+			<view class="tab_img">
+				<image src="/images/dresser.jpg"></image>
+			</view>
+			<view class="active_info">
+				<view class="active_name">
+					剪吹限时抢购
+				</view>
+				<view class="price_time1 flexRowBetween">
+					<view class="price">
+						¥222.00
+					</view>
+					<view class="time flexRowBetween">
+						<view class="font24 color6">活动倒计时:</view>
+						<view class="tiem_end">
+							03
+						</view>:
+						<view class="tiem_end">
+							03
+						</view>:
+						<view class="tiem_end">
+							03
+						</view>
+					</view>
+				</view>
+				<view class="group_btn1" bindtap="appoint">
+					<view class="btn_click font30 color1">发起拼团</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="tab_item {{tapCurrent == 1?'tab_this':''}}">
+		<view class="tab_list" bindtap="detail">	
+			<view class="tab_img">
+				<image src="/images/dresser.jpg"></image>
+			</view>
+			<view class="active_info">
+				<view class="active_name">
+					剪吹限时抢购
+				</view>
+				<view class="font24 color9 group_price flex">
+					团员价:<text>¥150</text>
+				</view>
+				<view class="price_time flexRowBetween">
+					<view class="group_btn">
+						<view class="go_group font32 color1" bindtap="group">去拼单</view>
+					</view>
+					<view class="time_end_box">
+						<view class="font22">还差<text>1人</text>拼团成功</view>
+						<view class="time flexRowBetween">
+							<view class="font24 color6">倒计时:</view>
+							<view class="tiem_end">
+								03
+							</view>:
+							<view class="tiem_end">
+								03
+							</view>:
+							<view class="tiem_end">
+								03
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="discount">
+				<image src="/images/group_icon1.png"></image>
+			</view>
+		</view>
+	</view>
+</view>
+<view class="mask" wx:if="{{is_show||is_show1}}" catchtouchmove="true" bindtap="mask">
+</view>
+<view id="group1" wx:if="{{is_show}}"  catchtouchmove="true">
+	<view class="group1">
+		<view class="close" bindtap="mask"><image src="/images/close_icon.png"></image></view>
+		<view class="font32 color3">发起拼团</view>
+		<view class="font28 color6">邀请<text>2人</text>即可组团成功，23:49:07后结束</view>
+		<view class="group_member flexCenter;">
+			<view class="member">
+				<view class="member_cont">
+					<view class="group_leader font22 color1">我是团长</view>
+					<image src="/images/dresser.jpg"></image>
+				</view>
+			</view>
+			<view class="member ">
+				<view class="member_cont member1">
+					<image src="/images/wenhao.jpg"></image>
+				</view>
+			</view>
+			<view class="member ">
+				<view class="member_cont member1">
+					<image src="/images/wenhao.jpg"></image>
+				</view>
+			</view>
+		</view>
+		<view class="method font32 color3">选择分享方式</view>
+		<view class="share_method flexCenter">
+			<view class="share this_bg">
+				<image src="/images/share1.png" style="width:32rpx;height:34rpx;"></image>
+			</view>
+			<view class="share">
+				<image src="/images/share2.png" style="width:32rpx;height:34rpx;"></image>
+			</view>
+			<view class="share">
+				<image src="/images/share3.png" style="width:32rpx;height:34rpx;"></image>
+			</view>
+		</view>
+		<button class="submit_info">去分享</button>
+	</view>
+</view>
+<view id="group2" wx:if="{{is_show1}}"  catchtouchmove="true">
+	<view class="group1 group2">
+		<view class="close" bindtap="mask"><image src="/images/close_icon.png"></image></view>
+		<view class="font32 color3">参与小美的拼团</view>
+		<view class="font28 color6">仅剩<text>1个</text>名额，23:49:07后结束</view>
+		<view class="group_member flexCenter;">
+			<view class="member">
+				<view class="member_cont">
+					<view class="group_leader font22 color1">拼主</view>
+					<image src="/images/dresser.jpg"></image>
+				</view>
+			</view>
+			<view class="member ">
+				<view class="member_cont member1">
+					<image src="/images/wenhao.jpg"></image>
+				</view>
+			</view>
+		</view>
+		<button class="submit_info" bindtap="mask">参与拼团</button>
+	</view>
+</view>
+<view class="bottom_spacing"></view>
+<view class="navbar">
+    <view class="navbar_item" bindtap="intoPathRedirect" data-path="/pages/Index/index">
+        <view class="nav_img">
+            <image src="/images/navbar1.jpg"></image>
+        </view>
+        <view class="text">首页</view>
+    </view>
+    <view class="navbar_item" bindtap="intoPathRedirect" data-path="/pages/Service/service">
+        <view class="nav_img">
+            <image src="/images/navbar2-a.jpg"></image>
+        </view>
+        <view class="text  this-text">服务</view>
+    </view>
+    <view class="navbar_item"  bindtap="intoPathRedirect" data-path="/pages/HairStyle/hairstyle">
+        <view class="nav_img">
+            <image src="/images/navbar3.jpg"></image>
+        </view>
+        <view class="text">发型</view>
+    </view>
+    <view class="navbar_item"  bindtap="intoPathRedirect" data-path="/pages/HairDresser/hairDresser">
+        <view class="nav_img">
+            <image src="/images/navbar4.jpg"></image>
+        </view>
+        <view class="text">技师</view>
+    </view>
+    <view class="navbar_item"  bindtap="intoPathRedirect" data-path="/pages/user/user">
+        <view class="nav_img">
+            <image src="/images/navbar5.jpg"></image>
+        </view>
+        <view class="text">我的</view>
+    </view>
+</view>

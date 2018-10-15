@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="w710">
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/loading/loading">
+    <view class="list_left">
+        加载动画
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/cart/cart">
+    <view class="list_left">
+        添加购物车
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/detail/detail">
+    <view class="list_left">
+        点击购买上拉选择
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+</view>

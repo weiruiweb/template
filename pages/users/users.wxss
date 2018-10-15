@@ -1,0 +1,13 @@
+/**index.wxss**/
+@import "../../wxParse/wxParse.wxss"; 
+view{
+	color:#666;
+}
+.list_right image{
+	width:44rpx;
+	height:44rpx;
+}
+.list{
+	height:80rpx;
+	border-bottom:solid 1px #e0e0e0;
+}

@@ -1,0 +1,84 @@
+<!--index.wxml-->
+<view class="p40">
+	<view class="house_name">房间名称房间名称（¥2000）</view>
+	<view class="house_name" style="font-size:28rpx;"><text>2018-09-19入住</text><text>2018-09-2 09:30之前离店</text><text>1天</text></view>
+</view>
+<view class="p40" id="album">
+   <view class="input_list flexRowBetween">
+   		<view class="input_before">住几间</view>
+   		<view class="house_input" style="width:52%">
+   			<input></input>
+   		</view>
+   		<view class="infor_center flexRowBetween" style="width:26%;padding-left: 4%;">	 
+	    </view>
+   </view>
+    <view class="input_list flexRowBetween">
+   		<view class="input_before">手机号</view>
+   		<view class="house_input">
+   			<input></input>
+   		</view>
+   </view>
+   <view class="input_list flexRowBetween">
+   		<view class="input_before">入住人</view>
+   		<view class="house_input">
+   			<input></input>
+   		</view>
+   </view>
+   <view class="input_list flexRowBetween"  bindtap="goBuy">
+   		<view class="input_before">优惠券</view>
+   		<view class="house_input flexRowBetween">
+   			<view></view>
+   			<image src="/images/next_page.jpg"></image>
+   		</view>
+   </view>
+   <view>
+	   <view class="flexRowBetween" style="margin-top: 20rpx;width:100%;">
+	   		<view class="input_before"></view>
+	   		<view class="house_note" style="background: #fffeea;border-left:solid 3rpx #333;">
+	   			<view>
+	   			下单后24小时内免费领取取消领取取消，下单后24小时内免费领取取消领取取消下单后24小时内免费领取取消领取取消下单后24小时内免费领取取消领取取消</view>
+	   			<view style="margin:16rpx 0;">如有疑问请联系门店</view>
+	   			<view>1271873891273(预定)</view>
+	   		</view>
+	   </view>
+	</view>
+</view>
+<view class="confirm flexRowBetween">
+	<view class="p40 flexRowBetween">
+		<view class="confirm_left">
+			合计：¥321
+		</view>
+		<view class="confirm_right" bindtap="intoPath"  data-path="/pages/houseOrder/houseOrder">
+			<view class="submit_btn">立即预订</view>
+		</view>
+	</view>
+</view>
+<view class="{{isShow?'mask':''}}"></view>
+<view class="select_discount {{isShow?'sildeIn':'slideOut'}}">
+	<view class="p40">
+		<view class="select_tlt">
+			选择优惠券
+		</view>
+		<view class="select_list flexRowBetween" data-id="0" bindtap="select_discount">
+			<view class="select_left">50元优惠卷:满500减50</view>
+			<view class="select_right">
+				<image src="{{is_discount == 0?'/images/select_a.jpg':'/images/select.jpg'}}"></image>
+			</view>
+		</view>
+		<view class="select_list flexRowBetween" data-id="1" bindtap="select_discount">
+			<view class="select_left">50元优惠卷:满500减50</view>
+			<view class="select_right">
+				<image src="{{is_discount == 1?'/images/select_a.jpg':'/images/select.jpg'}}"></image>
+			</view>
+		</view>
+
+		<view class="select_list flexRowBetween" data-id="2" bindtap="select_discount">
+			<view class="select_left">50元优惠卷:满500减50</view>
+			<view class="select_right">
+				<image src="{{is_discount == 2?'/images/select_a.jpg':'/images/select.jpg'}}"></image>
+			</view>
+		</view>
+
+	</view>
+	<view class="close" bindtap="close">关闭</view>
+</view>

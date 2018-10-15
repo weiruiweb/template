@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="w710">
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/dialog/dialog">
+    <view class="list_left">
+        自定义dialog
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/calendar/calendar">
+    <view class="list_left">
+        自定义日历
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+</view>

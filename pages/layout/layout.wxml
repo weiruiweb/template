@@ -28,12 +28,68 @@
       </view>
     </view>
 </view>
-<view>左右布局</view>
+<view  style="margin-top: 100rpx;"></view>
 <view class="w710">
   <view class="recommend flexRowBetween">
       <view class="recommend_left"></view>
       <view class="recommend_left"></view>
   </view>
 </view>
+<view style="margin-top: 100rpx;"></view>
+<view class="layout flex">
+  <view class="layout_item flex">
+    <image src="/images/detail_icon13.png"></image>
+  </view>
+  <view class="layout_item"></view>
+  <view class="layout_item"></view>
+  <view class="layout_item"></view>
+  <view class="layout_item"></view>
+</view>
+
+<view class="great flex">
+    <view class="great_left flex">
+
+    </view>
+    <view class="great_right">
+      <view class="great_top flex">
+
+      </view>
+      <view class="great_top great_bottom flex">
+  
+      </view>
+    </view>
+</view>
+<view class="great flex">
+    <view class="great_left flex">
+    </view>
+    <view class="great_right">
+      <view class="great_top flex">
+        <view class="great_small" style="border-right: solid 1px #e0e0e0;"></view>
+        <view class="great_small"></view>
+      </view>
+      <view class="great_top great_bottom flex">
+  
+      </view>
+    </view>
+</view>
+<view class="great flex">
+    <view class="great_left flex">
+      <view class="great_left_box" style="border-right:solid 1px #e0e0e0;"></view>
+      <view class="great_left_box"></view>
+    </view>
+    <view class="great_right">
+      <view class="great_top">
+        <view class="great_left_top" style="border-bottom:solid 1px #e0e0e0;">
+          <view class="great_small" style="border-right: solid 1px #e0e0e0;"></view>
+          <view class="great_small"></view>
+        </view>
+        <view class="great_left_bottom"></view>
+      </view>
+      <view class="great_top great_bottom flex">
+  
+      </view>
+    </view>
+</view>
+
 
 

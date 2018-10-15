@@ -1,0 +1,123 @@
+<!--index.wxml-->
+<view class="w710">
+  <view class="index_coach flexRowBetween">
+    <view class="coach_icon">
+      <image src="/images/index_icon2.png"></image>
+    </view>
+
+    <view class="coach_list">
+    <scroll-view scroll-x class="scroll-header">
+      <view class="coach_item">
+          <view class="coach_img"><image src="/images/index_icon3.png"></image></view>
+          <view class="coach_name">
+            库里
+          </view>
+          <view class="coach_cal">
+            3000cal
+          </view>
+          <view class="coach_cal">
+            300min
+          </view>
+          <view class="coach_add">
+            <image src="/images/index_icon1.png"></image>
+          </view>
+      </view>
+      <view class="coach_item">
+          <view class="coach_img"><image src="/images/index_icon3.png"></image></view>
+          <view class="coach_name">
+            库里
+          </view>
+          <view class="coach_cal">
+            3000cal
+          </view>
+          <view class="coach_cal">
+            300min
+          </view>
+          <view class="coach_add">
+            <image src="/images/index_icon1.png"></image>
+          </view>
+      </view>
+      <view class="coach_item">
+          <view class="coach_img"><image src="/images/index_icon3.png"></image></view>
+          <view class="coach_name">
+            库里
+          </view>
+          <view class="coach_cal">
+            3000cal
+          </view>
+          <view class="coach_cal">
+            300min
+          </view>
+          <view class="coach_add">
+            <image src="/images/index_icon1.png"></image>
+          </view>
+      </view>
+      <view class="coach_item">
+          <view class="coach_img"><image src="/images/index_icon3.png"></image></view>
+          <view class="coach_name">
+            库里
+          </view>
+          <view class="coach_cal">
+            3000cal
+          </view>
+          <view class="coach_cal">
+            300min
+          </view>
+          <view class="coach_add">
+            <image src="/images/index_icon1.png"></image>
+          </view>
+      </view>
+    </scroll-view>
+    </view>
+  </view>
+</view>
+<view class="w710">
+  <view class="course">
+    <view class="course_tlt">
+      本店热门课程
+    </view>
+    <view class="course_list flexRowBetween">
+        <view class="course_left">
+          <image src="/images/index3.png"></image>
+        </view>
+        <view class="course_right">
+          <view class="course1">普拉提塑型课程</view>
+          <view class="course2 flexRowBetween">
+            <view class="courde_left">PM18:00 | 2小时 | 2小时</view>
+            <view class="courde_right">预约</view>
+          </view>
+          <view class="course2">
+            <view class="sign_up">
+              <image src="/images/index_icon4.png"></image>
+              <view style="color:#bb212e;margin-right:26rpx;">79℃</view>
+              <view >报名状态：未满</view>
+            </view>
+          </view>
+        </view>
+    </view>
+    <view class="course_list flexRowBetween">
+        <view class="course_left">
+          <image src="/images/index3.png"></image>
+        </view>
+        <view class="course_right">
+          <view class="course1">普拉提塑型课程</view>
+          <view class="course2 flexRowBetween">
+            <view class="courde_left">PM18:00 | 2小时 | 2小时</view>
+            <view class="courde_right">预约</view>
+          </view>
+          <view class="course2">
+            <view class="sign_up">
+              <image src="/images/index_icon4.png"></image>
+              <view style="color:#bb212e;margin-right:26rpx;">79℃</view>
+              <view >报名状态：未满</view>
+            </view>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>
+<view class="solely" style="font-size:20rpx;color:#666;text-align:center;">
+  技术支持:西安纯粹科技有限公司
+</view>
+<view style="height:120rpx;width:100%;">
+</view>

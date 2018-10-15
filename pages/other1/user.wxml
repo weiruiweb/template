@@ -1,0 +1,73 @@
+<!--user.wxml-->
+<view class="banner">
+  <image src="/images/user_banner.jpg"></image>
+  <view class="banner_bottom ">
+    <view class="banner_in flexRowBetween">
+        <view class="banner_img">
+            <view class="user_img">
+                  <open-data type="userAvatarUrl"></open-data>
+            </view>
+        </view>
+        <view class="user_left">
+          <view style="font-size:32rpx;color:#fff;">
+            会员名称
+          </view>
+          <view class="member flex" >
+             <image src="/images/user_icon.png"></image>¥200
+            </view>
+        </view>
+        <view class="user_right"  bindtap="intoPath"  data-path="/pages/sign/sign">
+            <view style="font-size:32rpx;color:#fff;">
+            普通会员
+          </view>
+          <view class="resume" bindtap="intoPath"  data-path="/pages/payment/payment" >充值</view>
+        </view>
+    </view>
+  </view>
+</view>
+<view class="sort flexRowBetween">
+    <view class="sort_cont flexRowBetween">    
+        <view class="sort_item"  bindtap="intoPath"  data-path="/pages/userOrder/userOrder">
+            <view class="sort_icon">
+                <image src="/images/user_icon1.png"></image>
+            </view>
+            <view class="sort_txt">
+               订单
+            </view>
+        </view>
+        <view class="sort_item flexRowBetween"  bindtap="intoPath"  data-path="/pages/userRecord/userRecord">
+            <view class="thread"></view>
+            <view>
+                <view class="sort_icon">
+                    <image src="/images/user_icon2.png"></image>
+                </view>
+                <view class="sort_txt">
+                   消费记录
+                </view>
+            </view>
+            <view class="thread"></view>
+        </view>
+        <view class="sort_item" bindtap="intoPath"  data-path="/pages/userDiscount/userDiscount">
+            <view class="sort_icon">
+                <image src="/images/user_icon3.png"></image>
+            </view>
+            <view class="sort_txt">
+               优惠券
+            </view>
+        </view>
+    </view>
+</view>
+ <view class="navbar">
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text this-text" style="{{fonts[2].font}}">预定</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+        <view class="nav_img">
+            <image src="/images/navbar2_a.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">我的</view>
+    </view>
+</view>

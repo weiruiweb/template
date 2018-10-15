@@ -1,0 +1,46 @@
+<!--index2.wxml-->
+<view class="banner">
+    <image src="/images/banner.png"></image>
+</view>
+<view class="tab font30 flexRowBetween">
+    <view class="tab_item {{currentId == 0?'tab_this':''}}" data-id="0" bindtap="tab">
+        活动
+    </view>
+    <view class="tab_item {{currentId == 1?'tab_this':''}}" data-id="1"  bindtap="tab">
+        事迹
+    </view>
+    <view class="tab_item {{currentId == 2?'tab_this':''}}" data-id="2"  bindtap="tab">
+        案例
+    </view>
+    <view class="tab_item {{currentId == 3?'tab_this':''}}" data-id="3"  bindtap="tab">
+        新闻
+    </view>
+</view>
+
+
+<view class="tabs font30 flexRowBetween color6">
+    <view class="tabs_item " data-id="0" bindtap="tabs">
+        <text class="{{currentId == 0?'tabs_this':''}}">全部</text>
+    </view>
+    <view class="tabs_item " data-id="1" bindtap="tabs">
+        <text class="{{currentId == 1?'tabs_this':''}}">已领取</text>
+    </view>
+    <view class="tabs_item" data-id="2" bindtap="tabs">
+        <text class="{{currentId == 2?'tabs_this':''}}">已使用</text>
+    </view>
+    <view class="tabs_item" data-id="3" bindtap="tabs">
+        <text class="{{currentId == 3?'tabs_this':''}}">已失效</text>
+    </view>
+</view>
+
+<view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/horizontal-scroll_tab/horizontal-scroll_tab">
+    <view class="list_left">
+        横向滚动tab
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+
+
+

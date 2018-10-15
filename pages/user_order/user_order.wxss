@@ -24,7 +24,6 @@
 	border-bottom:solid 1px #e0e0e0;
 }
 .product_box{
-	width:100%;
 	height:230rpx;
 }
 .product_detail{
@@ -71,4 +70,17 @@
 	background:#fff;
 	border:solid 1px #e83632;
 	color:#666;
+}
+.order_tlt{
+	height:78rpx;
+	border-bottom:solid 1px #e0e0e0;
+}
+.tlt_left{
+	width:50%;
+	overflow:hidden;
+	font-size:26rpx;
+	color:#666;
+}
+.tlt_right{
+	text-align:right;
 }

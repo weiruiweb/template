@@ -1,0 +1,20 @@
+<!--index1.wxml-->
+
+<view style="width: 100%;height: 110rpx;"></view>
+<view class="w710 buy_bottom flex">
+    <view class="buy_box flex font24">
+        <view class="collect  color">
+            <image src="/images/detail_icon13.png"></image>
+            <view>分享</view>
+        </view>
+        <view class="collect">
+            <image src="/images/detail_icon14.png"></image>
+            <view>分享</view>
+        </view>
+        <view class="go_buy">
+            <view class="buy_click color font30">去买单</view>
+        </view>
+    </view>
+</view>
+
+
