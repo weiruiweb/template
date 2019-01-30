@@ -24,4 +24,12 @@
         <image src="/images/navbar3.jpg"></image>
     </view>
   </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/marquee/marquee">
+    <view class="list_left">
+        文字跑马灯效果
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
 </view>

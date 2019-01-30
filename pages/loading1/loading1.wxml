@@ -1,0 +1,10 @@
+<view class="loading_cont">
+  <view class="loading">
+    <span>s</span>
+    <span class="animate">O</span>
+    <span class="animate">L</span>
+    <span class="animate">E</span>
+    <span>L</span>
+    <span>Y</span>
+  </view>
+</view>

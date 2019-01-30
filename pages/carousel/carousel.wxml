@@ -1,7 +1,6 @@
 <!--index.wxml-->
 <swiper  class="swiper-block"  previous-margin="90rpx" next-margin="90rpx" current="0"  autoplay="{{autoplay}}"
         interval="{{interval}}" duration="{{duration}}" bindchange="swiperChange" circular="{{circular}}">
-
     <block wx:for="{{background}}" wx:index="{{index}}">
         <swiper-item class="swiper-item">
             <image mode="aspectFill" src="{{item}}" class="slide-image {{swiperIndex == index ? 'active' : ''}}"/>

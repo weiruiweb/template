@@ -1,7 +1,8 @@
-//logs.js
-const util = require('../../utils/util.js')
-const app = getApp()
-
+import {Api} from '../../utils/api.js';
+var api = new Api();
+const app = getApp();
+import {Token} from '../../utils/token.js';
+const token = new Token();
 
 Page({
   data: {
@@ -12,62 +13,20 @@ Page({
       fonts:app.globalData.font
     })
   },
-  userPayment:function(){
-    wx.navigateTo({
-      url:'/pages/userPayment/userPayment'
-    })
-  },
-   userChongzhi:function(){
-    wx.navigateTo({
-      url:'/pages/userChongzhi/userChongzhi'
-    })
-  }, 
-  userGroup:function(){
-    wx.navigateTo({
-      url:'/pages/userGroup/userGroup'
-    })
-  },
-  discount:function(){
-    wx.navigateTo({
-      url:'/pages/userDiscount/userDiscount'
-    })
-  },
-  address:function(){
-    wx.navigateTo({
-      url:'/pages/userAddress/userAddress'
-    })
-  }, 
-  userOrder:function(){
-    wx.navigateTo({
-      url:'/pages/userOrder/userOrder'
-    })
-  }, 
   
-  userComment:function(){
-    wx.navigateTo({
-      url:'/pages/userComment/userComment'
-    })
-  }, 
-  userTakeOut:function(){
-    wx.navigateTo({
-      url:'/pages/userTake/userTake'
-    })
+  intoPath(e){
+    const self = this;
+    api.pathTo(api.getDataSet(e,'path'),'nav');
   },
- 
 
-   sort:function(){
-     wx.redirectTo({
-      url:'/pages/Dishes/dishes'
+  intoPathRedi(e){
+    const self = this;
+    wx.navigateBack({
+      delta:1
     })
   },
-  index:function(){
-     wx.redirectTo({
-      url:'/pages/Index/index'
-    })
-  },
-  User:function(){
-     wx.redirectTo({
-      url:'/pages/User/user'
-    })
-  }
+  intoPathRedirect(e){
+    const self = this;
+    api.pathTo(api.getDataSet(e,'path'),'redi');
+  }, 
 })

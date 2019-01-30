@@ -25,3 +25,11 @@
 	</view>
 	<view class="w20"></view>
 </view>
+<view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/userProjectDetail/userProjectDetail">
+    <view class="list_left">
+        左图标右input
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>

@@ -120,7 +120,7 @@
         <image src="/images/navbar3.jpg"></image>
     </view>
   </view>
-  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/comment/comment">
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/userOrderComment/userOrderComment">
     <view class="list_left">
         评论
     </view>
@@ -131,6 +131,14 @@
   <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/detail/detail">
     <view class="list_left">
         商品
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/shopping1/shopping1">
+    <view class="list_left">
+        购物
     </view>
     <view class="list_right">
         <image src="/images/navbar3.jpg"></image>
@@ -152,9 +160,41 @@
         <image src="/images/navbar3.jpg"></image>
     </view>
   </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/loading1/loading1">
+    <view class="list_left">
+        加载动画
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
   <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/scroll-x/scroll-x">
     <view class="list_left">
       横向滚动 scroll-x
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/login/login">
+    <view class="list_left">
+        登录
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/bigImage/bigImage">
+    <view class="list_left">
+        图片点击放大
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/carousel2/carousel2">
+    <view class="list_left">
+        轮播带缩略图
     </view>
     <view class="list_right">
         <image src="/images/navbar3.jpg"></image>

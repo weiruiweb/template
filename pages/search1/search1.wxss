@@ -1,0 +1,24 @@
+/**index.wxss**/
+@import "../../wxParse/wxParse.wxss"; 
+.search{
+	width:94.8%;
+	height:66rpx;
+	background:#f2f2f2;
+	border-radius:50rpx;
+	position:absolute;
+	top:12rpx;
+	left:2.6%;
+}
+.search_btn{
+	width:12%;
+	text-align: center;
+}
+.search_btn image{
+	width:36rpx;
+	height:36rpx;
+}
+.search input{
+	width:88%;
+	height:100%;
+}
+

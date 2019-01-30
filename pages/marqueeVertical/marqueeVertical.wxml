@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class='scrollx'>
+  <view style='transform:translateY({{marquee}}rpx)'>
+      <view>你姐夫回复v会v回复v回复i欧式富方式</view>
+      <view>你姐夫回复v会v回复v回复iv方式</view>
+      <view>你姐夫回复v会v回式富方式</view>
+      <view>你姐夫回复v会v回复v回复i欧式富方式</view>
+      <view>你姐夫回复v会v回复v回复iv方式</view>
+      <view>你姐夫回复v会v回式富方式</view>
+      <view>你姐夫回复v会v回复富方式</view>
+      <view>你姐夫回复v会v回复v回复i欧式富方式</view>
+      <view>你姐夫回复v会v回复v回复iv方式</view>
+      <view>你姐夫回复v会v回式富方式997979797</view>
+      <view>你姐夫回复v会v回复富方式58588585</view>
+      
+   </view>
+</view>

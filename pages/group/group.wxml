@@ -137,7 +137,9 @@
 				</view>
 			</view>
 		</view>
-		<button class="submit_info" bindtap="mask">参与拼团</button>
+		<form  bindsubmit="submit">
+			<button class="submit_info" form-type="submit" bindtap="mask">参与拼团</button>
+		</form>
 	</view>
 </view>
 <view class="bottom_spacing"></view>

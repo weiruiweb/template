@@ -16,6 +16,14 @@
         <image src="/images/navbar3.jpg"></image>
     </view>
   </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/confirmOrder/confirmOrder">
+    <view class="list_left">
+        确认订单1
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
   <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/go_buy/go_buy">
     <view class="list_left">
         底部购买按钮

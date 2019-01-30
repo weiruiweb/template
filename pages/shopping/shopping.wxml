@@ -1,0 +1,9 @@
+<!--index2.wxml-->
+ <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/shopping_cart/shopping_cart">
+    <view class="list_left">
+        购物车
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>

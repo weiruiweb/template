@@ -1,0 +1,25 @@
+<!--index2.wxml-->
+<view class="shopping flex">
+    <view class="w20"></view>
+    <view class="W710 shopping_box flex">
+        <view class="select">
+            <image src="/images/select.png"></image>
+        </view>
+        <view class="shopping_img">
+            <image src="/images/tuan1.jpg"></image>
+        </view>
+        <view class="shopping_detail">
+            <view class="shopping_name font30 color3">产品名称</view>
+            <view class="shopping_txt font24  color6 avoidOverflow">产品介绍产品介绍产品介绍</view>
+            <view class="shopping_number font28 flex">
+                <view class="shopping_price color">¥8999</view>
+                <view class="number_handle flex">
+                    <view class="add">+</view>
+                    <view class="add_cont">0</view>
+                    <view class="add">-</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="w20"></view>
+</view>

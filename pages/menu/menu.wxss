@@ -18,8 +18,8 @@ view{
 	height:142rpx;
 }
 .menu_item image{
-	width:68rpx;
-	height:60rpx;
+	width:70rpx;
+	height:70rpx;
 }
 .menu_item view{
 	text-align:center;

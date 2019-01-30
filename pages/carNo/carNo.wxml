@@ -1,0 +1,79 @@
+<!--index.wxml-->
+<view class="banner">
+    <image src="/images/banner.png"></image>
+</view>
+<view class="w710" style="background: #feefaf;">
+    <view id="marquee" class="flexRowBetween">
+      <view class="horn"><image src="/images/horn.png"></image></view>
+      <view class="marquee_right">
+        <view class="marquee_box">
+          <view class="marquee_text font28 flex" style="{{orientation}}:{{marqueeDistance2}}px;width:100%;height:100%;">
+            <text>技术支持:西安纯粹科技有限公司技术支持:西安纯粹科技有限公司技术支持:西安纯粹科技有限公司</text>
+            <text wx:if="{{marquee2copy_status}}" style="margin-left:{{marquee2_margin}}px;">{{text}}</text>
+          </view>
+        </view>
+      </view>
+  </view>
+</view>
+<view class="container">
+     <view>请输入车牌号码：</view>
+     <view class="chepai">
+            <view class="tel"  bindtap="d1">{{carNo}}</view>
+     </view>
+     <!-- 省 -->
+     <view class="provinces" hidden='{{hidden1}}'>
+            <view class="pro_li lf" wx:for="{{item1}}" bindtap='sheng' data-sh="{{item}}">{{item}}</view>
+            <view class="pro_del lf" bindtap='null'>清空</view>
+            <view class="pro_close lf" bindtap='d2'>关闭</view>   
+     </view>
+     <!-- 号码     -->
+     <view class="keyNums" hidden='{{hidden2}}'>
+            <view class="pro_li lf" wx:for="{{item2}}" bindtap='other' data-ot="{{item}}">{{item}}</view>
+            <view class="bot">
+                <view class="pro_ok lf" bindtap='ok'>OK</view>
+                <view class="pro_d lf" bindtap='del'>Del</view>
+            </view> 
+     </view> 
+</view>
+<view class="w710">
+    <view class="car_number bg flexRowBetween">
+        <view class="nubmer_one">陕</view>
+        <view class="nubmer_one">A</view>
+        <view class="nubmer_one">5</view>
+        <view class="nubmer_one">5</view>
+        <view class="nubmer_one">5</view>
+        <view class="nubmer_one">5</view>
+        <view class="nubmer_one">5</view>
+    </view>
+    <view class="change_number flexCenter color font28">
+        <image src="/images/change.png"></image>
+        切换新能源车牌
+    </view>
+    <view class="submit_info new_number"  bindtap="intoPath" data-path="/pages/index_parking_detail/index_parking_detail">
+        陕<text>A45455R</text>
+        <image src="/images/close.png"></image>
+    </view>
+</view>
+<!--pages/jp_cp/jp_cp.wxml-->
+
+
+<view class="navbar">
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1-a.png"></image>
+        </view>
+        <view class="text this-text">停车缴费</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/query/query">
+        <view class="nav_img">
+           <image src="/images/navbar2.png"></image>
+        </view>
+        <view class="text">车辆查询</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+        <view class="nav_img">
+            <image src="/images/navbar3.png"></image>
+        </view>
+        <view class="text">个人中心</view>
+    </view>
+</view>

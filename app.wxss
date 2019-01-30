@@ -13,7 +13,7 @@ page{
 	align-items:center;
 }
 .avoidOverflow{
-	overflow-y:hidden;
+	overflow:hidden;
 	text-overflow:ellipsis;
 	white-space:nowrap;
 }
@@ -41,6 +41,10 @@ page{
 	width:2.6%;
 	height:100%;
 }
+.W710{
+	width:94.8%;
+	height:100%;
+}
 .main{
 	width:94.8%;
 }
@@ -63,7 +67,7 @@ page{
 	font-size:32rpx;
 }
 .color{
-	color:#fe5174;
+	color:#e83632;
 }
 .color1{
 	color:#fff;
@@ -128,5 +132,11 @@ page{
 	background:#00c6f7;
 	border-radius:10rpx;
 }
-
-
+.list_right image{
+	width:44rpx;
+	height:44rpx;
+}
+.list{
+	height:80rpx;
+	border-bottom:solid 1px #e0e0e0;
+}

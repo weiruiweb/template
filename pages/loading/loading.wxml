@@ -36,3 +36,22 @@
   <view class="loading_rotate_cube"></view>
   </view>
 </view>
+
+<view class="container">
+  <view class="dash uno"></view>
+  <view class="dash dos"></view>
+  <view class="dash tres"></view>
+  <view class="dash cuatro"></view>
+</view>
+
+<view class="wrap">
+ <view class="circle-box">
+ <canvas class="circle" style="width:200px; height:200px;" canvas-id="canvasArcCir">
+ </canvas>
+ <canvas class="circle" style="z-index: -5; width:200px; height:200px;" canvas-id="canvasCircle">
+ </canvas>
+ <view class="draw_btn" bindtap="drawCircle">开始动态绘制</view>
+ </view>
+</view>
+
+

@@ -17,7 +17,7 @@ Page({
     is_show:false,
    })
  },
- appoint:function(e){
+ reward:function(e){
   this.setData({
     is_show:true,
    })

@@ -40,7 +40,24 @@
         <image src="/images/navbar3.jpg"></image>
     </view>
   </view>
+</view> 
+<view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/userFeedBack/userFeedBack">
+    <view class="list_left">
+        意见反馈
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
 </view>
+<view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/select/select">
+    <view class="list_left">
+        选择器
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+</view>
+
 <view class="navbar">
     <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
         <view class="nav_img">

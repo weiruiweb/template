@@ -17,11 +17,8 @@ Page({
     currentId:0,
     swiperIndex:0,
   },
-  //事件处理函数
- 
   onLoad(options) {
     const self = this;
-
   },
   swiperChange(e) {
     const that = this;

@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view id="content">
+  <!--banner-->
+  <view class="recommend">
+    <view class="swiper-container">
+      <swiper autoplay="auto" interval="5000" duration="500" current="{{swiperCurrent}}" circular="{{circular}}" bindchange="swiperChange" class="swiper">
+        <block wx:for="{{slider}}" wx:key="unique">
+          <swiper-item data-id="{{item.id}}" data-url="{{item.linkUrl}}" class="dot{{index == swiperCurrent ? ' active' : ''}}" bindtap="chuangEvents" id="{{index}}">
+            <image src="{{item.picUrl}}" class="img"></image>
+            <span>{{item.index+1}}</span>
+          </swiper-item>
+        </block>
+      </swiper>
+      <view class="dots">
+        <swiper autoplay="auto" interval="5000" display-multiple-items="2" duration="500" current="{{dotsCurrent}}" circular="{{circular}}" bindchange="dotsChange">
+          <block wx:for="{{slider}}" wx:key="unique">
+            <swiper-item data-id="{{item.id}}" class="dot{{index == swiperCurrent ? ' active' : ''}}" bindtap="chuangEvent" id="{{index}}" style="display: flex;flex-direction: column;align-items: center;">
+              <image src="{{item.picUrl}}" class="imgs"></image>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+ 
+    </view>
+  </view>
+</view>

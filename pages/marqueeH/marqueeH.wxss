@@ -1,0 +1,28 @@
+/**index.wxss**/
+@import "../../wxParse/wxParse.wxss"; 
+view{
+	color:#666;
+}
+/*********跑马灯效果***********/
+.scrollx{
+  width: 100%;
+  background: #d3f2dd;
+  height: 17.5%;
+  white-space: nowrap;
+  font-size: 14px;}
+.scrollx view{letter-spacing: 1px;height: 234rpx;width:100%;}
+.scrollx image{
+  width:100%;
+  height:234rpx;
+}
+.bride{
+  width:100%;
+  height:65%;
+  text-align:center;
+  line-height:586rpx;
+}
+.bride image{
+  width:318rpx;
+  height:586rpx;
+  margin:60rpx auto;
+}

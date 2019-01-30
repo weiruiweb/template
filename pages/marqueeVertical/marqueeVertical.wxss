@@ -1,0 +1,18 @@
+/**index.wxss**/
+@import "../../wxParse/wxParse.wxss"; 
+view{
+	color:#666;
+}
+
+/*********跑马灯效果***********/
+.scrollx{
+  width: 100%;
+  background: #d3f2dd;
+  height: 268rpx;
+  line-height: 68rpx;
+  overflow:hidden;
+  font-size: 14px;
+  }
+.scrollx view{
+  letter-spacing: 1px;
+  height: 68rpx;}

@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 34,
+			"current": 42,
 			"list": [
 				{
 					"id": -1,
@@ -242,7 +242,55 @@
 				{
 					"id": -1,
 					"name": "产品列别2 ",
-					"pathName": "pages/index_product/index_product"
+					"pathName": "pages/index_product/index_product",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "购物",
+					"pathName": "pages/shopping_cart/shopping_cart",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "布局",
+					"pathName": "pages/userProjectState1/userProjectState1",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "缩略图",
+					"pathName": "pages/carousel2/carousel2",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "加载动画",
+					"pathName": "pages/loading1/loading1",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "纵向滚动",
+					"pathName": "pages/marqueeVertical/marqueeVertical",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "横向向滚动",
+					"pathName": "pages/marqueeH/marqueeH",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "纵向整屏滚动",
+					"pathName": "pages/marqueeScreen/marqueeScreen",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "form表单",
+					"pathName": "pages/index1/index1"
 				}
 			]
 		}

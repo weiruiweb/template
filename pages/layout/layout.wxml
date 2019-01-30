@@ -90,6 +90,14 @@
       </view>
     </view>
 </view>
+<view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/userProjectState1 /userProjectState1 ">
+  <view class="list_left">
+      布局1
+  </view>
+  <view class="list_right">
+      <image src="/images/navbar3.jpg"></image>
+  </view>
+</view>
 
 
 

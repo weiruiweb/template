@@ -1,0 +1,53 @@
+/**index.wxss**/
+@import "../../wxParse/wxParse.wxss"; 
+view{
+	color:#666;
+}
+
+/*********跑马灯效果***********/
+#marquee{
+  width: 100%;
+  height: 72rpx;
+}
+.horn{
+	width:10%;
+	height:100%;
+	display:flex;
+	align-items:center;
+}
+.horn image{
+	width:34rpx;
+	height:34rpx;
+}
+.marquee_right{
+	width:90%;
+	height:100%;
+	overflow:hidden;
+}
+.marquee_box {
+  width: 100%;
+  height:100%;
+  position: relative;
+}
+.marquee_text {
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+}
+.marquee_box .title {
+  padding: 10rpx 20rpx;
+  margin: 0 0 20rpx 0;
+  border-left: 10rpx solid #ccc;
+  font-size: 30rpx;
+  background: #ececec;
+}
+.marquee_panel {
+  margin: 20rpx 20rpx 20rpx 0;
+  border-left: 10rpx solid #ccc;
+  font-size: 26rpx;
+}
+.marquee_panel>view {
+  padding: 30rpx;
+  background: #ececec;
+  border-radius: 0 20rpx 20rpx 0;
+}

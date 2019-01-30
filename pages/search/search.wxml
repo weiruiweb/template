@@ -16,3 +16,12 @@
     </view>
   </view>
 </view>
+
+<view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/search1/search1">
+  <view class="list_left">
+      搜索框1
+  </view>
+  <view class="list_right">
+      <image src="/images/navbar3.jpg"></image>
+  </view>
+</view>

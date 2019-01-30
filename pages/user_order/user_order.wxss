@@ -39,7 +39,7 @@
 	height:156rpx;
 }
 .product_right{
-	width:42.5%;
+	width:72.5%;
 	height:156rpx;
 }
 .order_handle{

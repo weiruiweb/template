@@ -1,0 +1,47 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+.tab{
+	height:70rpx;
+	background:#f2f2f2;
+}
+.tab_item{
+	width:25%;
+	text-align:center;
+	height:70rpx;
+	line-height:70rpx;
+}
+.tab_this{
+	color:#21c3d4;
+	border-bottom:solid 1px #21c3d4;
+}
+
+.tabs{
+	height:80rpx;
+	border-bottom:solid 1px #e0e0e0;
+}
+.tabs_item{
+	width:25%;
+	text-align:center;
+	height:80rpx;
+	line-height:80rpx;
+}
+.tabs_this{
+	color:#e83632;
+	border-bottom:solid 1px #e83632;
+}
+.tabs_item text{
+	height:78rpx;
+	line-height:78rpx;
+	display:inline-block;
+}
+
+
+.list_right image{
+	width:44rpx;
+	height:44rpx;
+}
+.list{
+	height:80rpx;
+	border-bottom:solid 1px #e0e0e0;
+}

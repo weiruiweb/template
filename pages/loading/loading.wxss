@@ -400,3 +400,219 @@ Page {
     transform: rotateY(180deg);
   }
 }
+
+
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.dash {
+  margin: 0 15px;
+  width: 35px;
+  height: 15px;
+  border-radius: 8px;
+  background: #FF2CBD;
+  box-shadow: 0 0 10px 0 #FECDFF;
+}
+
+.uno {
+  margin-right: -18px;
+  transform-origin: center left;
+  animation: spin 3s linear infinite;  
+}
+
+.dos {
+  transform-origin: center right;
+  animation: spin2 3s linear infinite;
+  animation-delay: .2s;
+}
+
+.tres {
+  transform-origin: center right;
+  animation: spin3 3s linear infinite;
+  animation-delay: .3s;
+}
+
+.cuatro {
+  transform-origin: center right;
+  animation: spin4 3s linear infinite;
+  animation-delay: .4s;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(360deg);
+  }
+  30% {
+    transform: rotate(370deg);
+  }
+  35% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(-180deg);
+  }
+  35% {
+    transform: rotate(-190deg);
+  }
+  40% {
+    transform: rotate(-180deg);
+  }
+  78% {
+    transform: rotate(-180deg);
+  }
+  95% {
+    transform: rotate(-360deg);
+  }
+  98% {
+    transform: rotate(-370deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes spin3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  27% {
+    transform: rotate(0deg);  
+  }
+  40% {
+    transform: rotate(180deg);
+  }
+  45% {
+    transform: rotate(190deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  62% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  80% {
+    transform: rotate(370deg);
+  }
+  85% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  38% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(-360deg);
+  }
+  65% {
+    transform: rotate(-370deg);
+  }
+  75% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.circle-box {
+ text-align: center;
+ margin-top: 10vw;
+}
+ 
+.circle {
+ position: absolute;
+ left: 0;
+ right: 0;
+ margin: auto;
+}
+ 
+.draw_btn {
+ width: 35vw;
+ position: absolute;
+ top: 33vw;
+ right: 0;
+ left: 0;
+ margin: auto;
+ border: 1px #000 solid;
+ border-radius: 5vw;
+}
+
+
+/************************移动*****************************/
+
+        .progress-title{
+            font-size: 16px;
+            color:#011627;
+            margin:0px 0 30px !important;
+            font-weight: 700;
+        }
+        .progress{
+            background-color:#f7f7f7;
+            height:15px;
+            overflow: visible !important;
+            position: relative;
+            margin-bottom: 30px;
+            border-radius:0px !important;
+            box-shadow: none;
+        }
+        .progress .progress-bar{
+            animation: animate-cycle 2s;
+            box-shadow: none;
+            position: relative;
+        }
+        .progress .progress-bar:before{
+            content: "";
+            position: absolute;
+            width: 100%;
+            top: 6px;
+            left: 0;
+            border: 2px dashed #fff;
+        }
+        .progress .progress-bar:after{
+            content: "\f206";
+            font-family: fontawesome;
+            position: absolute;
+            right: 0px;
+            top: -20px;
+            font-size: 50px;
+            color: #000;
+        }
+        @-webkit-keyframes animate-cycle {
+            0% { width: 0%; }
+        }
+
+        @keyframes animate-cycle {
+            0% { width: 0%; }
+        }
+

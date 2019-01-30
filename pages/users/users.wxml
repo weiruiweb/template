@@ -24,4 +24,20 @@
         <image src="/images/navbar3.jpg"></image>
     </view>
   </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/user1/user1">
+    <view class="list_left">
+        我的中心1
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
+  <view class="list flexRowBetween font30" bindtap="intoPath" data-path="/pages/user2/user2">
+    <view class="list_left">
+        我的中心2
+    </view>
+    <view class="list_right">
+        <image src="/images/navbar3.jpg"></image>
+    </view>
+  </view>
 </view>
